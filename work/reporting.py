@@ -40,7 +40,7 @@ def export_readme(r):
     perf=md(['구분','MAPE (%) / Gap (%p)','비고'],[(a,f'{v:+.2f}' if unit=='pp' else f'{v:.2f}',note) for a,v,unit,note in performance_rows(r)])
     life=' / '.join(f"{s['batch']}: 중앙값 {s['median']:.1f}, 단수명 {100*s['short']/s['n']:.1f}%, 장수명 {100*s['long']/s['n']:.1f}%" for s in summary)
     dq=' / '.join(f"{s['batch']}: ρ={s['dq_rho']:.3f}" for s in summary)
-    ranges=' / '.join(f'{b}: {g.mean_life.min():.1f}~{g.mean_life.max():.1f} cycles' for b,g in policies.groupby('batch'))
+    ranges=' / '.join(f'{b}: {g.mean_life.min():.1f} - {g.mean_life.max():.1f} cycles' for b,g in policies.groupby('batch'))
     ablation=' / '.join(f"{s}: {candidates[(candidates.model=='ElasticNet')&(candidates.features==s)].CV_MAPE.iloc[0]:.2f}%" for s in ['D1','D2','State','Full'])
     largest=r['largest_errors'][:3]
     errors=' / '.join(f"{e['cell_id']}: 실제 {e['cycle_life']:.0f}, 예측 {e['prediction']:.1f}, APE {e['APE']:.1f}%" for e in largest)
@@ -110,7 +110,7 @@ python run_project.py --mode all
 
 ### 열화 곡선 분석
 
-- 초기10~100사이클보다 관측 후기25%의 Qd 감소 기울기가 더 음수인 셀은 115/115개였다(중단·재개 5셀 제외).
+- 초기 10 - 100사이클보다 관측 후기25%의 Qd 감소 기울기가 더 음수인 셀은 115/115개였다(중단·재개 5셀 제외).
 - 두 직선의 SSE를 최소화한 변화점을 knee 후보로 표시했다. 셀별 발생 시점은 `work/day1_design_features.csv`에 있다. 물리적 knee 확정값은 아니다.
 - 핵심 발견: 후기 가속을 초기 직선 하나로 설명하기 어렵다. knee·후기 기울기는 미래 정보이므로 예측 피처에서 제외했다.
 
