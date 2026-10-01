@@ -1,0 +1,15 @@
+model,features,n_features,CV_MAPE,CV_SD,inner_MAPE,params
+Ridge,D1,1,9.774719903948755,1.1786607276478867,9.586713312464234,{'regressor__model__alpha': 0.1}
+ElasticNet,D1,1,9.774890291253506,1.1794522048822742,9.589403509487397,"{'regressor__model__alpha': 0.001, 'regressor__model__l1_ratio': 0.1}"
+ElasticNet,State,5,10.71763972314732,2.080368316701921,9.84364475133392,"{'regressor__model__alpha': 0.01, 'regressor__model__l1_ratio': 0.9}"
+ElasticNet,D2,2,10.736190606775711,3.126110507020981,9.826573661541575,"{'regressor__model__alpha': 0.01, 'regressor__model__l1_ratio': 0.5}"
+ElasticNet,Full,7,11.443057675875544,3.562392522410374,9.317642015067227,"{'regressor__model__alpha': 0.001, 'regressor__model__l1_ratio': 0.9}"
+Ridge,D2,2,11.530829018693485,4.884491525004818,10.249435065449275,{'regressor__model__alpha': 1}
+SVR,D1,1,13.916458592168302,6.4692275257197975,11.578391373999338,"{'regressor__model__C': 1, 'regressor__model__epsilon': 0.03, 'regressor__model__gamma': 0.1}"
+SVR,D2,2,14.29925620872009,5.30162997981489,11.927358331555354,"{'regressor__model__C': 10, 'regressor__model__epsilon': 0.03, 'regressor__model__gamma': 'scale'}"
+RandomForest,Full,7,14.98104268543856,5.015865119519748,13.524671475270683,"{'regressor__model__max_depth': 3, 'regressor__model__max_features': 1.0, 'regressor__model__min_samples_leaf': 2}"
+SVR,State,5,15.86058470068365,4.412179993703968,13.770469874166116,"{'regressor__model__C': 10, 'regressor__model__epsilon': 0.1, 'regressor__model__gamma': 0.1}"
+GradientBoosting,Full,7,15.871188040250951,2.213283520663706,13.212551331945274,"{'regressor__model__learning_rate': 0.03, 'regressor__model__max_depth': 1, 'regressor__model__min_samples_leaf': 3, 'regressor__model__n_estimators': 120}"
+SVR,Full,7,19.865530381424772,7.8901504772777855,14.83237430700592,"{'regressor__model__C': 1, 'regressor__model__epsilon': 0.03, 'regressor__model__gamma': 'scale'}"
+Ridge,State,5,25.797668105377575,29.3711000375245,14.425906823085011,{'regressor__model__alpha': 1}
+Ridge,Full,7,24832.396027382503,49639.50809686659,12.510792877831992,{'regressor__model__alpha': 0.1}

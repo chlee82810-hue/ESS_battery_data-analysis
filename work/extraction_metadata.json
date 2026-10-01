@@ -1,0 +1,42 @@
+{
+  "batches": {
+    "Batch 1": {
+      "source": "/Users/leehyojun/Desktop/ESS_배터리_데이터분석/data/2017-05-12_batchdata_updated_struct_errorcorrect.mat",
+      "cells_after_cleaning": 41,
+      "cycle_life_min": 534.0,
+      "cycle_life_max": 2237.0
+    },
+    "Batch 2": {
+      "source": "/Users/leehyojun/Desktop/ESS_배터리_데이터분석/data/2018-02-20_batchdata_updated_struct_errorcorrect.mat",
+      "cells_after_cleaning": 47,
+      "cycle_life_min": 392.0,
+      "cycle_life_max": 1186.0
+    },
+    "Batch 3": {
+      "source": "/Users/leehyojun/Desktop/ESS_배터리_데이터분석/data/2018-04-12_batchdata_updated_struct_errorcorrect.mat",
+      "cells_after_cleaning": 40,
+      "cycle_life_min": 541.0,
+      "cycle_life_max": 1935.0
+    }
+  },
+  "cleaning": {
+    "exclusions": {
+      "Batch 1": [
+        8,
+        10,
+        12,
+        13,
+        22
+      ],
+      "Batch 2": [],
+      "Batch 3": [
+        2,
+        23,
+        32,
+        37,
+        42,
+        43
+      ]
+    }
+  }
+}

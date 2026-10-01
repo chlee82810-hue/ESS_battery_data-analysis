@@ -1,0 +1,30 @@
+{
+  "generated_at_utc": "2026-10-01T04:50:22.084012+00:00",
+  "python": "3.11.11",
+  "model_run_utc": "2026-10-01T04:36:01.447918+00:00",
+  "sha256": {
+    "README.md": "ef46153b094cec648fea420333e73ac0996ff2cce9749bbc8b42ae3d772b13f8",
+    "requirements.txt": "2df7637ebbba4271cd8152ed7deff1c0ef52899a4e3104e3d4aff4cb62e17077",
+    "run_project.py": "a70a66a27a0ba6b814b51acdaf50c1a47efca29081a46cf2affb2b659f32e1c8",
+    "work/day1_design.py": "b61f3f83da28b4b943341b7c7c0f6f4927d61d778046b53d8c4cf3e6c53ea4c8",
+    "work/day2_modeling.py": "c308ab3edadb6e7c2a70522951638ed35ae659b28d2ae65e461cc7316bcbb865",
+    "work/extract_features.py": "c8a948c95bd13f1bb2279de2e37906f24e37f9501b3eb6349f9b3307ed496bfc",
+    "work/download_data.py": "cf944e14c4c27dcbc2d5e1ada37010ea974d0ee9de066ca9da57dfbbfc8acf8d",
+    "work/project_fonts.py": "12409889b2cf2fcd02a6958832c1db5edebd16d7adf17dfd32d83dd4a1bd1950",
+    "work/build_report.py": "c5da08ea5779994041f21beabdf87b85234a8828f3f5399c1a85f98653812d69",
+    "work/build_day2_report.py": "e9f7c8e7a6219abf4e09ef53f9360cc00ffc7de516258b4f07d79db2e382af41",
+    "work/reporting.py": "9f516f6e045145626c1b28fc22b97c2dc113fdb8b65d76c20aff7e9f8368ebdd",
+    "work/verify_results.py": "6c9438ac5d010ebdb641bfd1e4dc7a68867d82360e28d6bd24146f97fe49c53d",
+    "work/package_submission.py": "8c67e4ad38157e6a2faf96c1944ef44010b26ecdce096175d5a29b3cf3ee5a2e",
+    "work/day2/nested_cv_folds.csv": "3c09e83fd363ed74dd8bc2ff027450bfa86d90a69d48e9df7166a4dac97245c5",
+    "work/day2/split_manifest.csv": "d4863c7ed795cac82a1f414ce5b5187830e65235260f5d11b2663eb550cfb019",
+    "work/day2/features_all.csv": "a1222d7b42957fceee58292ab9193a7beb51864a1dee08b7483fc05dc20d34d0",
+    "work/day2/candidate_comparison.csv": "df68d34293d85edb9abf8ebd87eb6cd65eb141c91c2b7c51050430ecea9c13a9",
+    "work/day2/holdout_permutation_importance.csv": "ec4eb1300bf15d1b8b45c356a9da9395035813077fa966d62b5d349a53445d3d",
+    "work/day2/holdout_predictions.csv": "d69c4248d83c7741c851244bee390e8bed796f351ecaddc5b349fd4530884340",
+    "work/day2/external_predictions.csv": "8aaa432c44d2e737e775558584a884fcce447074805e745ca0bcd12a004e28d5",
+    "work/day2/model_performance.csv": "74cc52d7cd23f2b444d2db7429d0f197ff21cf6e7263d27186aff72d3aeaee57",
+    "output/pdf/DS-MINI-Model-울산_3반-이효준.pdf": "12504b3b55d18e2f63097f5e6dcdc20ec877f0aff2d9af4959293c2e8f5498ba",
+    "output/pdf/DS-MINI-Design-울산_3반-이효준.pdf": "2f84dbee67dc403df21845356e7fd0774488e3a397ffb95621aff5857f95c0e9"
+  }
+}
