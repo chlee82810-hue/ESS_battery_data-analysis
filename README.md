@@ -8,7 +8,7 @@
 - 학습 데이터: Batch 1 (2017-05-12), 41셀.
 - 평가 데이터: Batch 2 (2018-02-20), 39셀.
 - 추가 평가 데이터: Batch 3 (2018-04-12), 40셀.
-- 태스크: **Regression (Cycle Life 예측)**.
+- 태스크: **Regression (Cycle Life 예측)**. 
 - 최종 모델: 로그 타깃 Ridge, 입력 피처: log10 Var(ΔQ).
 
 ## 환경 설정 및 실행
