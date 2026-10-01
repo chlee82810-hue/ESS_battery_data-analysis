@@ -36,7 +36,7 @@ def main():
     assert perf['index'].tolist()==[x[0] for x in performance_rows(r)]
     np.testing.assert_allclose(perf.value,[x[1] for x in performance_rows(r)])
     readme=(ROOT/'README.md').read_text()
-    for heading in ['## 프로젝트 개요','## 환경 설정','## EDA','## Modeling','### 피처 엔지니어링 전략','### 모델 선택 및 근거','## 성능 결과','## 오류 분석','## ESS 도메인 해석','## 참고문헌']:
+    for heading in ['## 프로젝트 개요','## 파일 구조','## 환경 설정','## EDA','## Modeling','### 피처 엔지니어링 전략','### 모델 선택 및 근거','## 성능 결과','## 오류 분석','## ESS 도메인 해석','## 참고문헌']:
         assert heading in readme,heading
     for path in (ROOT/'output/pdf').glob('*.pdf'):
         reader=PdfReader(path);assert len(reader.pages)>=10
