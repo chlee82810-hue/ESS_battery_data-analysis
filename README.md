@@ -183,8 +183,3 @@ Batch2는 과제 참고목표9.1%에 미달했다(Gap +19.11%p). 공식 논문 �
 - [공식 데이터](https://data.matr.io/1/), [공식 로더·코드](https://github.com/rdbraatz/data-driven-prediction-of-battery-cycle-life-before-capacity-degradation)
 - [수업 Kaggle 데이터](https://www.kaggle.com/datasets/itshpark/data-driven-prediction-of-battery-cycle)
 - 원자료 이용·재배포는 원출처 조건을 따른다.
-
-## 작성자
-
-이효준 · 울산3반: EDA, 피처 엔지니어링, 모델 개발·평가·보고서 작성.
-
